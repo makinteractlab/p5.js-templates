@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+#one {
+  position:absolute;
+  display: block;
+  top:10px;
+  left:10px;
+  width:800px;
+  height:300px;
+}
+
+#two {
+  position:absolute;
+  display: block;
+  top:320px;
+  left:10px;
+  width:800px;
+  height:300px;
+}
+
+.footer {
+  background-color: yellow;
+  position: absolute;
+  margin-top: 640px;
+}

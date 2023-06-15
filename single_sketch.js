@@ -1,13 +1,12 @@
-// Single-sketch example
-
-function setup (){
-  createCanvas (800, 600);
+function setup() {
+  createCanvas(400, 400);
 }
 
-function draw(){
-  background(100);
-  fill(255);
-  noStroke();
-  rectMode(CENTER);
-  rect(mouseX, mouseY, 50, 50);
+function draw() {
+  if (mouseIsPressed) {
+    fill(0);
+  } else {
+    fill(255);
+  }
+  ellipse(mouseX, mouseY, 80, 80);
 }
